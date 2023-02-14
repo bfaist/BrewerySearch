@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "asynclocationkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AsyncSwift/AsyncLocationKit.git",
+      "state" : {
+        "revision" : "1430d4ff7a9afc1d49d12c0c5fbcf2eed3aa256a",
+        "version" : "1.6.1"
+      }
+    }
+  ],
+  "version" : 2
+}

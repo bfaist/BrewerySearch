@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6380A6E297F9134002E4C86 /* BreweryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A6D297F9134002E4C86 /* BreweryView.swift */; };
+		A6380A71297F915C002E4C86 /* BreweryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A70297F915C002E4C86 /* BreweryViewModel.swift */; };
+		A6380A732980DCEC002E4C86 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A722980DCEC002E4C86 /* SearchViewModel.swift */; };
+		A6380A752980E013002E4C86 /* SearchByTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A742980E013002E4C86 /* SearchByTypeView.swift */; };
+		A6380A772980E021002E4C86 /* SearchByTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A762980E021002E4C86 /* SearchByTypeViewModel.swift */; };
+		A6380A79298B4FC2002E4C86 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A78298B4FC2002E4C86 /* LocationManager.swift */; };
+		A6380A7C298B7516002E4C86 /* AsyncLocationKit in Frameworks */ = {isa = PBXBuildFile; productRef = A6380A7B298B7516002E4C86 /* AsyncLocationKit */; };
+		A6380A7E2990A68C002E4C86 /* SearchNearbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A7D2990A68C002E4C86 /* SearchNearbyView.swift */; };
+		A6380A802990A6CF002E4C86 /* SearchNearbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6380A7F2990A6CF002E4C86 /* SearchNearbyViewModel.swift */; };
 		A69D81C0297F602E00B17710 /* BrewerySearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81BF297F602E00B17710 /* BrewerySearchApp.swift */; };
-		A69D81C2297F602E00B17710 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81C1297F602E00B17710 /* ContentView.swift */; };
+		A69D81C2297F602E00B17710 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81C1297F602E00B17710 /* SearchView.swift */; };
 		A69D81C4297F602F00B17710 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69D81C3297F602F00B17710 /* Assets.xcassets */; };
 		A69D81C7297F602F00B17710 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A69D81C6297F602F00B17710 /* Preview Assets.xcassets */; };
-		A69D81D1297F602F00B17710 /* BrewerySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81D0297F602F00B17710 /* BrewerySearchTests.swift */; };
 		A69D81DB297F602F00B17710 /* BrewerySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81DA297F602F00B17710 /* BrewerySearchUITests.swift */; };
 		A69D81DD297F602F00B17710 /* BrewerySearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81DC297F602F00B17710 /* BrewerySearchUITestsLaunchTests.swift */; };
+		A69D81EA297F605400B17710 /* OpenBreweryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81E9297F605400B17710 /* OpenBreweryAPI.swift */; };
+		A69D81EE297F60B400B17710 /* Brewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D81ED297F60B400B17710 /* Brewery.swift */; };
+		A6CE14EE2995F72F00971515 /* BreweryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14ED2995F72F00971515 /* BreweryListView.swift */; };
+		A6CE14F02995F76B00971515 /* BreweryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14EF2995F76B00971515 /* BreweryListViewModel.swift */; };
+		A6CE14F2299B1AC100971515 /* SearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F1299B1AC100971515 /* SearchViewModelTests.swift */; };
+		A6CE14F4299B1BD000971515 /* SearchByTypeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F3299B1BD000971515 /* SearchByTypeViewModelTests.swift */; };
+		A6CE14F6299B1C1300971515 /* MockApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F5299B1C1300971515 /* MockApiService.swift */; };
+		A6CE14F8299B375C00971515 /* SearchNearbyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +50,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6380A6D297F9134002E4C86 /* BreweryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryView.swift; sourceTree = "<group>"; };
+		A6380A70297F915C002E4C86 /* BreweryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryViewModel.swift; sourceTree = "<group>"; };
+		A6380A722980DCEC002E4C86 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A6380A742980E013002E4C86 /* SearchByTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByTypeView.swift; sourceTree = "<group>"; };
+		A6380A762980E021002E4C86 /* SearchByTypeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByTypeViewModel.swift; sourceTree = "<group>"; };
+		A6380A78298B4FC2002E4C86 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A6380A7D2990A68C002E4C86 /* SearchNearbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNearbyView.swift; sourceTree = "<group>"; };
+		A6380A7F2990A6CF002E4C86 /* SearchNearbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNearbyViewModel.swift; sourceTree = "<group>"; };
 		A69D81BC297F602E00B17710 /* BrewerySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewerySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69D81BF297F602E00B17710 /* BrewerySearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerySearchApp.swift; sourceTree = "<group>"; };
-		A69D81C1297F602E00B17710 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A69D81C1297F602E00B17710 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A69D81C3297F602F00B17710 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A69D81C6297F602F00B17710 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A69D81CC297F602F00B17710 /* BrewerySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewerySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A69D81D0297F602F00B17710 /* BrewerySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerySearchTests.swift; sourceTree = "<group>"; };
 		A69D81D6297F602F00B17710 /* BrewerySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewerySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69D81DA297F602F00B17710 /* BrewerySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerySearchUITests.swift; sourceTree = "<group>"; };
 		A69D81DC297F602F00B17710 /* BrewerySearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewerySearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69D81E9297F605400B17710 /* OpenBreweryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBreweryAPI.swift; sourceTree = "<group>"; };
+		A69D81ED297F60B400B17710 /* Brewery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery.swift; sourceTree = "<group>"; };
+		A6CE14ED2995F72F00971515 /* BreweryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryListView.swift; sourceTree = "<group>"; };
+		A6CE14EF2995F76B00971515 /* BreweryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryListViewModel.swift; sourceTree = "<group>"; };
+		A6CE14F1299B1AC100971515 /* SearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModelTests.swift; sourceTree = "<group>"; };
+		A6CE14F3299B1BD000971515 /* SearchByTypeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByTypeViewModelTests.swift; sourceTree = "<group>"; };
+		A6CE14F5299B1C1300971515 /* MockApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiService.swift; sourceTree = "<group>"; };
+		A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNearbyViewModelTests.swift; sourceTree = "<group>"; };
+		A6CE14F9299B456300971515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6380A7C298B7516002E4C86 /* AsyncLocationKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6380A6F297F9143002E4C86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6380A6D297F9134002E4C86 /* BreweryView.swift */,
+				A6380A70297F915C002E4C86 /* BreweryViewModel.swift */,
+				A6CE14ED2995F72F00971515 /* BreweryListView.swift */,
+				A6CE14EF2995F76B00971515 /* BreweryListViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A69D81B3297F602E00B17710 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +138,17 @@
 		A69D81BE297F602E00B17710 /* BrewerySearch */ = {
 			isa = PBXGroup;
 			children = (
+				A6CE14F9299B456300971515 /* Info.plist */,
+				A6380A6F297F9143002E4C86 /* Views */,
+				A69D81EC297F60A200B17710 /* Model */,
+				A69D81EB297F608F00B17710 /* Services */,
 				A69D81BF297F602E00B17710 /* BrewerySearchApp.swift */,
-				A69D81C1297F602E00B17710 /* ContentView.swift */,
+				A69D81C1297F602E00B17710 /* SearchView.swift */,
+				A6380A722980DCEC002E4C86 /* SearchViewModel.swift */,
+				A6380A742980E013002E4C86 /* SearchByTypeView.swift */,
+				A6380A762980E021002E4C86 /* SearchByTypeViewModel.swift */,
+				A6380A7D2990A68C002E4C86 /* SearchNearbyView.swift */,
+				A6380A7F2990A6CF002E4C86 /* SearchNearbyViewModel.swift */,
 				A69D81C3297F602F00B17710 /* Assets.xcassets */,
 				A69D81C5297F602F00B17710 /* Preview Content */,
 			);
@@ -113,7 +166,10 @@
 		A69D81CF297F602F00B17710 /* BrewerySearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				A69D81D0297F602F00B17710 /* BrewerySearchTests.swift */,
+				A6CE14F1299B1AC100971515 /* SearchViewModelTests.swift */,
+				A6CE14F3299B1BD000971515 /* SearchByTypeViewModelTests.swift */,
+				A6CE14F5299B1C1300971515 /* MockApiService.swift */,
+				A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */,
 			);
 			path = BrewerySearchTests;
 			sourceTree = "<group>";
@@ -125,6 +181,23 @@
 				A69D81DC297F602F00B17710 /* BrewerySearchUITestsLaunchTests.swift */,
 			);
 			path = BrewerySearchUITests;
+			sourceTree = "<group>";
+		};
+		A69D81EB297F608F00B17710 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A69D81E9297F605400B17710 /* OpenBreweryAPI.swift */,
+				A6380A78298B4FC2002E4C86 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A69D81EC297F60A200B17710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A69D81ED297F60B400B17710 /* Brewery.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +216,9 @@
 			dependencies = (
 			);
 			name = BrewerySearch;
+			packageProductDependencies = (
+				A6380A7B298B7516002E4C86 /* AsyncLocationKit */,
+			);
 			productName = BrewerySearch;
 			productReference = A69D81BC297F602E00B17710 /* BrewerySearch.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +274,7 @@
 					};
 					A69D81CB297F602F00B17710 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1420;
 						TestTargetID = A69D81BB297F602E00B17710;
 					};
 					A69D81D5297F602F00B17710 = {
@@ -215,6 +292,9 @@
 				Base,
 			);
 			mainGroup = A69D81B3297F602E00B17710;
+			packageReferences = (
+				A6380A7A298B7516002E4C86 /* XCRemoteSwiftPackageReference "AsyncLocationKit" */,
+			);
 			productRefGroup = A69D81BD297F602E00B17710 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +337,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69D81C2297F602E00B17710 /* ContentView.swift in Sources */,
+				A6380A7E2990A68C002E4C86 /* SearchNearbyView.swift in Sources */,
+				A6380A802990A6CF002E4C86 /* SearchNearbyViewModel.swift in Sources */,
+				A6CE14EE2995F72F00971515 /* BreweryListView.swift in Sources */,
+				A69D81EE297F60B400B17710 /* Brewery.swift in Sources */,
+				A6380A732980DCEC002E4C86 /* SearchViewModel.swift in Sources */,
+				A6380A79298B4FC2002E4C86 /* LocationManager.swift in Sources */,
+				A69D81C2297F602E00B17710 /* SearchView.swift in Sources */,
+				A6380A772980E021002E4C86 /* SearchByTypeViewModel.swift in Sources */,
 				A69D81C0297F602E00B17710 /* BrewerySearchApp.swift in Sources */,
+				A6380A71297F915C002E4C86 /* BreweryViewModel.swift in Sources */,
+				A69D81EA297F605400B17710 /* OpenBreweryAPI.swift in Sources */,
+				A6CE14F02995F76B00971515 /* BreweryListViewModel.swift in Sources */,
+				A6380A6E297F9134002E4C86 /* BreweryView.swift in Sources */,
+				A6380A752980E013002E4C86 /* SearchByTypeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +358,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69D81D1297F602F00B17710 /* BrewerySearchTests.swift in Sources */,
+				A6CE14F6299B1C1300971515 /* MockApiService.swift in Sources */,
+				A6CE14F4299B1BD000971515 /* SearchByTypeViewModelTests.swift in Sources */,
+				A6CE14F8299B375C00971515 /* SearchNearbyViewModelTests.swift in Sources */,
+				A6CE14F2299B1AC100971515 /* SearchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +515,8 @@
 				DEVELOPMENT_TEAM = LV3L79C26B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BrewerySearch/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will use your location to find a nearby brewery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +545,8 @@
 				DEVELOPMENT_TEAM = LV3L79C26B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BrewerySearch/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will use your location to find a nearby brewery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -472,15 +569,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LV3L79C26B;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobfaist.BrewerySearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewerySearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrewerySearch";
@@ -492,11 +596,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LV3L79C26B;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobfaist.BrewerySearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -583,6 +693,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6380A7A298B7516002E4C86 /* XCRemoteSwiftPackageReference "AsyncLocationKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AsyncSwift/AsyncLocationKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6380A7B298B7516002E4C86 /* AsyncLocationKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6380A7A298B7516002E4C86 /* XCRemoteSwiftPackageReference "AsyncLocationKit" */;
+			productName = AsyncLocationKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A69D81B4297F602E00B17710 /* Project object */;
 }
