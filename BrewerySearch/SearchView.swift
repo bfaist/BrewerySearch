@@ -18,18 +18,22 @@ struct SearchView: View {
                     NavigationLink {
                         SearchByTypeView(viewModel: SearchByTypeViewModel(apiService: OpenBreweryAPIImpl()))
                     } label: {
+                        Image(systemName: "filemenu.and.selection")
                         Text(viewModel.searchByTypeTitle)
                     }
                     NavigationLink {
                         SearchNearbyView(viewModel: SearchNearbyViewModel(openBreweryAPI: OpenBreweryAPIImpl(),
                                                                           locationManager: LocationManagerImpl()))
                     } label: {
+                        Image(systemName: "location.fill")
                         Text(viewModel.searchNearbyTitle)
                     }
                 }.listStyle(.plain)
                  .navigationTitle(viewModel.headerTitle)
             }
             .padding()
+        }.onAppear {
+            viewModel.requestLocationPermission()
         }
     }
 }

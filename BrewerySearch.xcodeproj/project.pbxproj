@@ -30,6 +30,8 @@
 		A6CE14F4299B1BD000971515 /* SearchByTypeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F3299B1BD000971515 /* SearchByTypeViewModelTests.swift */; };
 		A6CE14F6299B1C1300971515 /* MockApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F5299B1C1300971515 /* MockApiService.swift */; };
 		A6CE14F8299B375C00971515 /* SearchNearbyViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */; };
+		A6CE14FB299C878800971515 /* TestDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14FA299C878800971515 /* TestDataHelper.swift */; };
+		A6CE14FD299C88AE00971515 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CE14FC299C88AE00971515 /* ModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		A6CE14F5299B1C1300971515 /* MockApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApiService.swift; sourceTree = "<group>"; };
 		A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchNearbyViewModelTests.swift; sourceTree = "<group>"; };
 		A6CE14F9299B456300971515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6CE14FA299C878800971515 /* TestDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataHelper.swift; sourceTree = "<group>"; };
+		A6CE14FC299C88AE00971515 /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,8 @@
 				A6CE14F3299B1BD000971515 /* SearchByTypeViewModelTests.swift */,
 				A6CE14F5299B1C1300971515 /* MockApiService.swift */,
 				A6CE14F7299B375C00971515 /* SearchNearbyViewModelTests.swift */,
+				A6CE14FA299C878800971515 /* TestDataHelper.swift */,
+				A6CE14FC299C88AE00971515 /* ModelTests.swift */,
 			);
 			path = BrewerySearchTests;
 			sourceTree = "<group>";
@@ -361,7 +367,9 @@
 				A6CE14F6299B1C1300971515 /* MockApiService.swift in Sources */,
 				A6CE14F4299B1BD000971515 /* SearchByTypeViewModelTests.swift in Sources */,
 				A6CE14F8299B375C00971515 /* SearchNearbyViewModelTests.swift in Sources */,
+				A6CE14FD299C88AE00971515 /* ModelTests.swift in Sources */,
 				A6CE14F2299B1AC100971515 /* SearchViewModelTests.swift in Sources */,
+				A6CE14FB299C878800971515 /* TestDataHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ import Combine
 
 protocol LocationManager: AnyObject {
     func getLastLocation() async throws -> CLLocation?
+    func requestPermission() async
 }
 
 enum LocationManagerError: Error, CustomStringConvertible {
@@ -30,10 +31,10 @@ class LocationManagerImpl: NSObject, LocationManager {
     
     override init() {
         super.init()
-        
-        Task {
-            await locationManager.requestPermission(with: .whenInUsage)
-        }
+    }
+    
+    func requestPermission() async {
+        await _ = locationManager.requestPermission(with: .whenInUsage)
     }
     
     func getLastLocation() async throws -> CLLocation? {

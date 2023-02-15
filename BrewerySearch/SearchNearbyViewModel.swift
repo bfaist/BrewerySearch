@@ -42,12 +42,16 @@ class SearchNearbyViewModel: ObservableObject {
                     }
                 }
             } else {
+                await MainActor.run {
+                    networkError = LocationManagerError.locationNotFound.localizedDescription
+                    hasLocationError = true
+                }
+            }
+        } catch {
+            await MainActor.run {
                 networkError = LocationManagerError.locationNotFound.localizedDescription
                 hasLocationError = true
             }
-        } catch {
-            networkError = LocationManagerError.locationNotFound.localizedDescription
-            hasLocationError = true
         }
     }
 }
